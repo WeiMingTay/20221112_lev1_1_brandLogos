@@ -1,0 +1,60 @@
+body {
+  padding: 5rem;
+  background-color: darkslategray;
+}
+
+main {
+  padding: 1rem;
+  background-color: #fff;
+  margin: 1rem auto;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.lab {
+  font-size: 4rem;
+}
+.lab.la-twitter {
+  color: #1da1f2;
+}
+.lab.la-behance {
+  color: #1769ff;
+}
+.lab.la-facebook {
+  color: #1877f2;
+}
+.lab.la-vimeo {
+  color: #1ab7ea;
+}
+.lab.la-snapchat-square {
+  background-color: #fffc00;
+  color: #fff;
+  border-radius: 50%;
+}
+.lab.la-airbnb {
+  color: #fd5c63;
+}
+.lab.la-amazon {
+  color: #ff9900;
+}
+.lab.la-android {
+  color: #a4c639;
+}
+.lab.la-stack-overflow {
+  color: #f48024;
+}
+.lab.la-ubuntu {
+  background-color: #dd4814;
+  color: #fff;
+}
+.lab.la-github {
+  color: #4078c0;
+}
+.lab.la-js-square {
+  color: #f7df1e;
+}/*# sourceMappingURL=style.css.map */

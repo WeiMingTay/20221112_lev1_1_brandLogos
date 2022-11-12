@@ -1,0 +1,67 @@
+// Importe
+@import "variablen.scss";
+
+// Allgemein
+body {
+    padding: 5rem;
+    background-color: darkslategray;
+}
+main {
+    padding: 1rem;
+    background-color: $white;
+    margin: 1rem auto;
+
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+// Logos
+.lab {
+	font-size: 4rem;
+
+
+
+	&.la-twitter {
+		color: $twitter;
+	}
+	&.la-behance {
+		color: $behance;
+	}
+	&.la-facebook {
+		color: $facebook;
+	}
+	&.la-vimeo {
+		color: $vimeo;
+	}
+	&.la-snapchat-square {
+		background-color: $snapchat;
+        color: $white;
+        border-radius: 50%;
+	}
+	&.la-airbnb {
+		color: $airbnb;
+	}
+	&.la-amazon {
+		color: $amazon;
+	}
+	&.la-android {
+		color: $android;
+	}
+	&.la-stack-overflow {
+		color: $stack-overflow;
+	}
+	&.la-ubuntu {
+		background-color: $ubuntu;
+        color: $white;
+	}
+	&.la-github {
+		color: $github;
+	}
+	&.la-js-square {
+		color: $javascript;
+	}
+}
